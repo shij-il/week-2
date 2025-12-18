@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+h1 {
+    margin-bottom: 20px;
+}
+#counter {
+    font-size: 60px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+button {
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+#increment {
+    background: #28a745;
+    color: white;
+}
+#decrement {
+    background: #dc3545;
+    color: white;
+}
+#reset {
+    background: #6c757d;
+    color: white;
+}
+button:hover {
+    opacity: 0.8;
+}
+#status {
+    font-weight: bold;
+}
