@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Counter App</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body class="bg-gradient">
+
+<div class="container vh-100 d-flex justify-content-center align-items-center">
+
+    <div class="card text-center shadow-lg p-4 rounded-4" style="width: 360px;">
+        
+        <h2 class="mb-3 fw-bold">Counter App</h2>
+        <p class="text-muted">📃</p>
+
+        <div id="count" class="display-3 fw-bold text-primary my-4">
+            0
+        </div>
+
+        <div class="d-flex justify-content-between gap-2">
+            <button class="btn btn-success btn-lg rounded-pill w-100" id="incBtn">
+                <i class="bi bi-plus-lg"></i>
+            </button>
+
+            <button class="btn btn-danger btn-lg rounded-pill w-100" id="decBtn">
+                <i class="bi bi-dash-lg"></i>
+            </button>
+        </div>
+
+        <button class="btn btn-secondary btn-lg rounded-pill mt-3 w-100" id="resetBtn">
+            <i class="bi bi-arrow-counterclockwise"></i> Reset
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
