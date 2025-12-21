@@ -1,0 +1,36 @@
+:root {
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #111827;
+}
+
+body.dark {
+  --bg: #0f172a;
+  --card: #111827;
+  --text: #e5e7eb;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: 0.3s;
+}
+
+.app {
+  max-width: 900px;
+  background: var(--card);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
